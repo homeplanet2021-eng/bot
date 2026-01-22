@@ -1,0 +1,73 @@
+servers:
+  - id: nl-1
+    remnawave_node_id: "be13fe82-4af2-45e1-93cb-0280ceccb745"
+    country_code: "NL"
+    city: "Amsterdam"
+    public_host: "nl1.example.net"
+    weight: 10
+    max_active_slots: 500
+    tags: ["core", "low-latency"]
+    maintenance_mode: false
+    enabled: true
+    drain_mode: false
+    supported_platforms: ["android", "ios", "windows", "macos", "linux", "router"]
+  - id: de-1
+    remnawave_node_id: "<TODO_NODE_UUID>"
+    country_code: "DE"
+    city: "Frankfurt"
+    public_host: "de1.example.net"
+    weight: 9
+    max_active_slots: 450
+    tags: ["core"]
+    maintenance_mode: false
+    enabled: true
+    drain_mode: false
+    supported_platforms: ["android", "ios", "windows", "macos", "linux", "router"]
+  - id: fi-1
+    remnawave_node_id: "<TODO_NODE_UUID>"
+    country_code: "FI"
+    city: "Helsinki"
+    public_host: "fi1.example.net"
+    weight: 8
+    max_active_slots: 350
+    tags: ["nordics"]
+    maintenance_mode: false
+    enabled: true
+    drain_mode: false
+    supported_platforms: ["android", "ios", "windows", "macos", "linux", "router"]
+  - id: se-1
+    remnawave_node_id: "<TODO_NODE_UUID>"
+    country_code: "SE"
+    city: "Stockholm"
+    public_host: "se1.example.net"
+    weight: 8
+    max_active_slots: 350
+    tags: ["nordics"]
+    maintenance_mode: false
+    enabled: true
+    drain_mode: false
+    supported_platforms: ["android", "ios", "windows", "macos", "linux", "router"]
+  - id: uk-1
+    remnawave_node_id: "<TODO_NODE_UUID>"
+    country_code: "GB"
+    city: "London"
+    public_host: "uk1.example.net"
+    weight: 7
+    max_active_slots: 300
+    tags: ["uk"]
+    maintenance_mode: false
+    enabled: true
+    drain_mode: false
+    supported_platforms: ["android", "ios", "windows", "macos", "linux", "router"]
+  - id: us-1
+    remnawave_node_id: "<TODO_NODE_UUID>"
+    country_code: "US"
+    city: "New York"
+    public_host: "us1.example.net"
+    weight: 6
+    max_active_slots: 300
+    tags: ["na"]
+    maintenance_mode: false
+    enabled: true
+    drain_mode: false
+    supported_platforms: ["android", "ios", "windows", "macos", "linux", "router"]
