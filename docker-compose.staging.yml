@@ -1,0 +1,37 @@
+version: "3.9"
+
+services:
+  bot:
+    build: .
+    env_file:
+      - .env.example
+    depends_on:
+      - postgres
+      - redis
+    networks:
+      - default
+      - remnawave-network
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.vpn-bot-staging.rule=Host(`staging-bot.horizonid.space`) && PathPrefix(`/webhooks/telegram`)"
+      - "traefik.http.routers.vpn-bot-staging.entrypoints=websecure"
+      - "traefik.http.routers.vpn-bot-staging.tls=true"
+
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: vpn_bot_staging
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    networks:
+      - default
+
+  redis:
+    image: redis:7
+    command: ["redis-server", "--databases", "16"]
+    networks:
+      - default
+
+networks:
+  remnawave-network:
+    external: true

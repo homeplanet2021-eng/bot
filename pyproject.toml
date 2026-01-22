@@ -1,13 +1,13 @@
 [project]
 name = "vpn-telegram-bot"
 version = "0.1.0"
-requires-python = ">=3.11"
+requires-python = ">=3.12"
 
 [tool.pytest.ini_options]
 addopts = "-q"
 
 [tool.mypy]
-python_version = "3.11"
+python_version = "3.12"
 ignore_missing_imports = true
 mypy_path = "src"
 packages = ["bot"]

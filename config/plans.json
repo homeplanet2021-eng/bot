@@ -6,67 +6,68 @@
       "name": "SOLO",
       "slots": 1,
       "duration_days": 30,
-      "price": 100
+      "price": 150
     },
     {
       "id": "solo_3m",
       "name": "SOLO",
       "slots": 1,
       "duration_days": 90,
-      "price": 250
+      "price": 375
     },
     {
       "id": "solo_1y",
       "name": "SOLO",
       "slots": 1,
       "duration_days": 365,
-      "price": 900
+      "price": 1350
     },
     {
       "id": "duo_1m",
       "name": "DUO",
       "slots": 2,
       "duration_days": 30,
-      "price": 150
+      "price": 225
     },
     {
       "id": "duo_3m",
       "name": "DUO",
       "slots": 2,
       "duration_days": 90,
-      "price": 375
+      "price": 563
     },
     {
       "id": "duo_1y",
       "name": "DUO",
       "slots": 2,
       "duration_days": 365,
-      "price": 1350
+      "price": 2025
     },
     {
       "id": "family_1m",
       "name": "FAMILY",
       "slots": 4,
       "duration_days": 30,
-      "price": 250
+      "price": 375
     },
     {
       "id": "family_3m",
       "name": "FAMILY",
       "slots": 4,
       "duration_days": 90,
-      "price": 625
+      "price": 938
     },
     {
       "id": "family_1y",
       "name": "FAMILY",
       "slots": 4,
       "duration_days": 365,
-      "price": 2250
+      "price": 3375
     }
   ],
   "policy": {
+    "multislot_factor_2": 1.5,
     "multislot_factor_4": 2.5,
-    "disclaimer": "Цены в Stars, без обещаний конверсии в фиат."
+    "disclaimer": "Цены в Stars, без обещаний точной конверсии в фиат."
   }
 }
