@@ -1,0 +1,72 @@
+{
+  "currency": "XTR",
+  "plans": [
+    {
+      "id": "solo_1m",
+      "name": "SOLO",
+      "slots": 1,
+      "duration_days": 30,
+      "price": 100
+    },
+    {
+      "id": "solo_3m",
+      "name": "SOLO",
+      "slots": 1,
+      "duration_days": 90,
+      "price": 250
+    },
+    {
+      "id": "solo_1y",
+      "name": "SOLO",
+      "slots": 1,
+      "duration_days": 365,
+      "price": 900
+    },
+    {
+      "id": "duo_1m",
+      "name": "DUO",
+      "slots": 2,
+      "duration_days": 30,
+      "price": 150
+    },
+    {
+      "id": "duo_3m",
+      "name": "DUO",
+      "slots": 2,
+      "duration_days": 90,
+      "price": 375
+    },
+    {
+      "id": "duo_1y",
+      "name": "DUO",
+      "slots": 2,
+      "duration_days": 365,
+      "price": 1350
+    },
+    {
+      "id": "family_1m",
+      "name": "FAMILY",
+      "slots": 4,
+      "duration_days": 30,
+      "price": 250
+    },
+    {
+      "id": "family_3m",
+      "name": "FAMILY",
+      "slots": 4,
+      "duration_days": 90,
+      "price": 625
+    },
+    {
+      "id": "family_1y",
+      "name": "FAMILY",
+      "slots": 4,
+      "duration_days": 365,
+      "price": 2250
+    }
+  ],
+  "policy": {
+    "multislot_factor_4": 2.5,
+    "disclaimer": "Цены в Stars, без обещаний конверсии в фиат."
+  }
+}
